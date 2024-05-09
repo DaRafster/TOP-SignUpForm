@@ -23,9 +23,14 @@ body {
     gap: 50px;
 }
 
-.side-image {
+.img-container {
     width: 37%;
     height: 100vh;
+}
+
+.side-image {
+    width: 100%;
+    height: 100%;
 }
 
 .form-container {
@@ -78,6 +83,7 @@ button {
     background-color: var(--primary-color);
     border: none;
     cursor: pointer;
+    width: 70%;
 }
 
 span {
