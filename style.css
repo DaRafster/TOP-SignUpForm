@@ -90,8 +90,15 @@ input {
     display: block;
 }
 
+.errorMsg {
+    color: red;
+    margin: 0;
+    opacity: 0;
+    font-size: 12px;
+}
+
 .right-container {
-    margin-top: 75px;
+    margin-top: 60px;
     padding-right: 100px;
     color: white;
 }
@@ -99,7 +106,7 @@ input {
 .column {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
 }
 
 button {

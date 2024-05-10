@@ -43,9 +43,10 @@
                   name="firstName"
                   id="firstName"
                   placeholder="John"
-                  pattern="^[a-z ,.'-]+$"
+                  pattern="^[A-Z a-z ,.'-]+$"
                   required
                 />
+                <p class="errorMsg">* Please enter a valid name</p>
               </div>
 
               <div>
@@ -57,6 +58,7 @@
                   placeholder="johndoe@gmail.com"
                   required
                 />
+                <p class="errorMsg">* Please enter a valid email</p>
               </div>
 
               <div>
@@ -69,6 +71,7 @@
                   minlength="10"
                   required
                 />
+                <p class="errorMsg">* Passwords do not match</p>
               </div>
               <button>Create Account</button>
             </div>
@@ -81,9 +84,10 @@
                   name="lastName"
                   id="lastName"
                   placeholder="Doe"
-                  pattern="^[a-z ,.'-]+$"
+                  pattern="^[A-Z a-z ,.'-]+$"
                   required
                 />
+                <p class="errorMsg">* Please enter a valid name</p>
               </div>
 
               <div>
@@ -96,6 +100,7 @@
                   pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
                   required
                 />
+                <p class="errorMsg">* Please follow the format 999-999-9999</p>
               </div>
 
               <div>
@@ -103,10 +108,11 @@
                 <input
                   type="password"
                   name="password"
-                  id="password"
+                  id="confirmPassword"
                   placeholder="confirm password"
                   required
                 />
+                <p class="errorMsg">&nbsp</p>
               </div>
             </div>
           </form>
