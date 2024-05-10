@@ -53,6 +53,20 @@ body {
     height: 100%;
 }
 
+.attrib {
+    position: absolute;
+    bottom: 25px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.attrib a {
+    color: white;
+}
+
 .form-container {
     margin-top: 50px;
 }
